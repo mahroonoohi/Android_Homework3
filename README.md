@@ -1,5 +1,5 @@
 # Android_Homework3
-
+#Part1
 Internet_Logger:
 make sure notification inside setting of an app is on and Allowed 
 
