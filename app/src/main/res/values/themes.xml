@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <style name="Theme.Android_HW3" parent="android:Theme.Material.Light.NoActionBar" />
+=======
+    <style name="Theme.Android_HW3_Worker" parent="android:Theme.Material.Light.NoActionBar" />
+>>>>>>> code_2
 </resources>

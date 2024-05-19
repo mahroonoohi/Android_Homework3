@@ -4,11 +4,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "mahroo.noohi.android_hw3"
     compileSdk = 34
 
     defaultConfig {
         applicationId = "mahroo.noohi.android_hw3"
+=======
+    namespace = "mahroo.noohi.android_hw3_worker"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "mahroo.noohi.android_hw3_worker"
+>>>>>>> code_2
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -66,4 +74,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+<<<<<<< HEAD
+=======
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
+>>>>>>> code_2
 }

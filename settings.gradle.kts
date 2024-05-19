@@ -13,5 +13,11 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "Android_HW3"
 include(":app")
+=======
+rootProject.name = "Android_HW3_Worker"
+include(":app")
+ 
+>>>>>>> code_2
