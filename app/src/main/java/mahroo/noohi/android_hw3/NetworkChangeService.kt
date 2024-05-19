@@ -71,7 +71,7 @@ class NetworkChangeService : Service() {
 
         private fun isInternetConnected(context: Context): Boolean {
             val connectivityManager =
-                context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+                context.getSystemService(CONNECTIVITY_SERVICE) as ConnectivityManager
             val networkInfo = connectivityManager.activeNetworkInfo
             return networkInfo != null && networkInfo.isConnected
         }
@@ -127,7 +127,7 @@ class NetworkChangeService : Service() {
         val statusText = if (isConnected) "Connected" else "Disconnected"
         notification?.setContentText("Connection Status: $statusText")
         val notificationManager =
-            getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+            getSystemService(NOTIFICATION_SERVICE) as NotificationManager
         notificationManager.notify(1, notification?.build())
     }
 }
